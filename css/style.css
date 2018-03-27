@@ -1,0 +1,69 @@
+div{
+	display: inline-block;
+	position: relative;
+}
+.kubik{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	animation: move 4s ease-in-out 1s infinite forwards;
+	border-radius: 100%;
+}
+.kubik1{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	border-radius: 100%;
+	animation: move 4s ease-in-out 2s infinite forwards;
+}
+.kubik2{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	animation: move 4s ease-in-out 3s infinite forwards;
+	border-radius: 100%;
+}
+.kubik3{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	animation: move 4s ease-in-out 4s infinite forwards;
+	border-radius: 100%;
+}
+@keyframes move{
+	0%{
+	top: 0;
+	left: 0;
+	background-color: red;
+	}
+
+	25%{
+	top: 0;
+	left: 300px;
+	background-color: brown;
+}
+
+	50%{
+	top: 300px;
+	left: 300px;
+	background-color: yellow;
+}
+
+
+	75%{
+	top: 300px;
+	left: 0;
+	background-color: purple;
+}
+100%{
+	top: 0;
+	left: 0;
+	background-color: purple;
+}
+
+}
+
